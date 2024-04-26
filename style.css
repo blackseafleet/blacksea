@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+:root {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #191717;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+#submit {
+    padding: 10px 20px;
+    color: #CCC8AA;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    border: 1px solid #CCC8AA;
+    justify-content: center;
+}
+
+
+#submit:hover {
+    background: #7D7C7C;
+    align-self: center;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #7D7C7C, 0 0 25px #7D7C7C, 
+    0 0 50px #7D7C7C, 0 0 100px #7D7C7C; 
+}
+
+
+
+#label0 {
+    color: #fff;
+}
+
+
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%)
+}
+
+#para{
+    color: #fff;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50% , -50%)
+    
+}
